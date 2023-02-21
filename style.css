@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 50px;
+}
+
+.main-section {
+  margin: 0 auto;
+  width: 700px;
+  background-color: aqua;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px aqua;
+}
+ol {
+  padding: 10px 10px;
+}
+li {
+  list-style: none;
+}
+label {
+  padding-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(45, 158, 158);
+  border-style: none;
+  margin: 10px 200px;
+}

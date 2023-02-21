@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <title>Quiz App</title>
+  </head>
+  <body onload="firstTimeQus()">
+    <!-- <body> -->
+    <h1>QUIZ APP</h1>
+    <div class="main-section" id="main-div">
+      <h2 id="question"></h2>
+      <ol id="datac">
+        <li>
+          <input id="a" type="radio" name="danish" /><label id="opta"></label>
+        </li>
+        <li>
+          <input id="b" type="radio" name="danish" /><label id="optb"></label>
+        </li>
+        <li>
+          <input id="c" type="radio" name="danish" /><label id="optc"></label>
+        </li>
+        <li>
+          <input id="d" type="radio" name="danish" /><label id="optd"></label>
+        </li>
+      </ol>
+      <!-- <button>Next</button> -->
+      <button onclick="nowCheckInput()">Next</button>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
